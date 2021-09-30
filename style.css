@@ -3,3 +3,71 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+.topo{
+    text-align: center;
+    padding: 50px 0px;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+
+#text_topo{
+    margin: 50px 0px;
+}
+
+#text_topo p{
+    line-height:25px;
+    margin: 30px 0px;
+}
+
+button{
+    height: 40px;
+    width: 220px;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+}
+
+#ios{
+    background-color: hsl(171, 66%, 44%);
+}
+
+#mac{
+    margin-left: 15px;
+    background-color:hsl(233, 100%, 69%);
+}
+
+.desc1{
+    margin: 30px 0px;
+    text-align: center;
+}
+
+#text_desc1 p{
+    line-height:25px;   
+    padding: 20px 0px;
+}
+
+#conteudo_desc1{
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img_desc1 img{
+    height: 450px;
+}
+
+#class{
+    margin: 60px 0px 0px 80px;
+}
+
+#info{
+    padding-bottom: 25px;
+}
+
+#info  p{
+    padding-top: 5px;
+    line-height:25px;
+}
+
