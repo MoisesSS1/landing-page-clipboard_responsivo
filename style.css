@@ -71,3 +71,35 @@ button{
     line-height:25px;
 }
 
+.conteudo_desc2, .avaliacao{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.conteudo_desc2 p, .caracteristicas p, .avaliacao p {
+    margin: 20px 0px 100px 0px;
+}
+
+#carac_inicial{
+    text-align: center;
+    
+}
+
+.carac{
+    width: 25%;
+}
+
+.carac_bloco{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.parceiros{
+    text-align: center;
+}
+
+.parceiros img{
+    padding:0px 30px;
+}
