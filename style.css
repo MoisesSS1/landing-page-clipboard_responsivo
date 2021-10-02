@@ -97,9 +97,56 @@ button{
 }
 
 .parceiros{
+    margin:60px 12%;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
 }
 
-.parceiros img{
-    padding:0px 30px;
+.rodape{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 8% 0px 12% ;
+    height: 125px;
+    width: 100%;
+    background-color: rgb(224, 225, 224);
+}
+
+#links{
+    width: 70%;
+}
+
+#logo_rodape{
+    padding-right: 100px;
+    align-items: center;
+    display: flex;
+    height: 100%;
+
+}
+#logo_rodape img{
+    align-items: center;
+    height: 60%;
+    align-content: center;
+}
+
+#links ul{
+    list-style-type: none;  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+
+#links ul li{
+    padding: 30px;
+}
+.m_s{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    width: 10%;
+    
 }
